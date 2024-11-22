@@ -3,4 +3,5 @@ export class Create_user_dto {
   readonly last_name: string;
   readonly age: number;
   readonly gender: string;
+  readonly problem: boolean;
 }
