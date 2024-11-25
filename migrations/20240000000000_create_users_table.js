@@ -1,6 +1,5 @@
-const { Sequelize } = require("sequelize");
 module.exports = {
-  up: async (migration_interface) => {
+  up: async (migration_interface, Sequelize) => {
     await migration_interface.createTable("users", {
       id: {
         type: Sequelize.INTEGER,
