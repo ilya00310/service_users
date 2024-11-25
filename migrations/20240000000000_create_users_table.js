@@ -1,3 +1,4 @@
+/** @type {import('sequelize-cli').Migration} */
 module.exports = {
   up: async (migration_interface, Sequelize) => {
     await migration_interface.createTable("users", {
